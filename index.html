@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="header">
+    <h1>Week 3 CSS</h1>
+  </div>
+  
+  <p class="paragraphs">CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.
+   This separation can improve content accessibility, since the content can be written without concern for its presentation;
+   provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share
+   formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content;
+   and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+  </p>
+  
+  <p>Web Development includes:</p>
+  <ol>
+    <li>Frontend</li>
+    <ul>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <li>Backend</li>
+    <ul>
+        <li>Python (Django)</li>
+        <li>Javascript (Nodejs)</li>
+    </ul>
+  </ol>
+  
+  <form>
+    <fieldset>
+      <legend>Personal Info</legend>
+      <br>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="email">
+      <br>
+      <br>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required placeholder="username">
+      <br>
+      <br>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required minlength="8" maxlength="20" placeholder="password">
+      <br>
+      <br>
+      <label for="country">Nationality</label>
+      <select id="country" name="Country">
+        <option value="ke">Kenya</option>
+        <option value="ug">Uganda</option>
+        <option value="tz">Tanzania</option>
+      </select>
+      <br>
+      <br>
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+  
+  <h2>Images</h2>
+  <div class="image-container">
+    <p>Beautiful Sunset</p>
+    <img src="sunset.jpeg" alt="a sunset image" width="300" height="200">
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 PLP. All rights reserved</p>
+  </footer>
+</body>
+</html>
